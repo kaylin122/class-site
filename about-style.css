@@ -8,6 +8,18 @@ h1{
   font-size: 50px;
 }
 
+h2{
+  text-align: center;
+  color: pink;
+  font-family: Helvetica;
+  font-size: 20px;
+  padding: 30px;
+}
+
+h2:hover{
+  color: black;
+}
+
 div{
   margin: auto;
   width: 250px;
@@ -20,7 +32,6 @@ p{
   color: black;
   font-family: Helvetica;
   font-size: 16px;
-  list-style: none;
   padding: 30px;
 }
 
