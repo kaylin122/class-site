@@ -28,6 +28,10 @@ a:hover {
   color: pink;
 }
 
+h1:hover{
+  color: pink;
+}
+
 a{
   color: black;
   text-decoration: none;
