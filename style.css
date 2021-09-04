@@ -47,3 +47,16 @@ li{
   margin: auto;
   width: 43%;
 }
+
+a:hover {
+  color: pink;
+}
+
+h1:hover{
+  color: pink;
+}
+
+img{
+  width: 300px;
+  margin-left: 100px;
+}
