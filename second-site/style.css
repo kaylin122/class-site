@@ -3,6 +3,10 @@ html {
   background-color: #1b2525;
 }
 
+img{
+  max-width: inherit;
+}
+
 h1{
   font-size: 15px;
   color: yellow;
@@ -48,11 +52,20 @@ li{
   margin-right: 25%;
 }
 
+a{
+  text-decoration: none;
+  color: #0058A3;
+}
+
 p:hover{
   filter: blur(0px);
 }
 
 li:hover{
+  filter: blur(0px);
+}
+
+a:hover{
   filter: blur(0px);
 }
 
