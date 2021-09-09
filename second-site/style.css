@@ -1,0 +1,40 @@
+html {
+  font-family: "noto sans jp";
+  background-color: #1b2525;
+}
+
+h1{
+  font-size: 90px;
+  color: yellow;
+  filter: blur(10px);
+}
+
+h2{
+  font-size: 30px;
+  color: #0058A3;
+  filter: blur(3px);
+}
+
+p,li{
+  font-size: 20px;
+  color: #0058A3;
+  filter: blur(3px);
+  list-style: none;
+  text-align: justify;
+}
+
+p:hover{
+  filter: blur(0px);
+}
+
+li:hover{
+  filter: blur(0px);
+}
+
+h1:hover{
+  filter: blur(2px);
+}
+
+h2:hover{
+  filter: blur(1px);
+}
