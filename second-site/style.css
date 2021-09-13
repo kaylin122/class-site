@@ -1,29 +1,35 @@
 html {
   font-family: "noto sans jp";
   background-color: #1b2525;
+  scroll-behavior: smooth;
 }
 
-img{
-  max-width: inherit;
+img {
+  display: block;
+  width: 820px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 150px;
+  border:
 }
 
-h1{
-  font-size: 15px;
+h1 {
   color: yellow;
-  filter: blur(6px);
-  text-align: center;
-  margin-top: 25%;
+  text-align: left;
+  filter: blur(2px);
+  margin-top: 50px;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
-h2{
+h2 {
   font-size: 90px;
   color: yellow;
   filter: blur(10px);
   text-align: center;
-  margin-top: 3000px;
 }
 
-h3{
+h3 {
   font-size: 30px;
   color: #0058A3;
   filter: blur(3px);
@@ -32,7 +38,18 @@ h3{
   margin-right: 25%;
 }
 
-p{
+.image-descriptions {
+  margin-bottom: 60px;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 820px;
+}
+
+.b {
+  color: yellow;
+}
+
+p {
   font-size: 20px;
   color: #0058A3;
   filter: blur(3px);
@@ -42,7 +59,7 @@ p{
   text-align: justify;
 }
 
-li{
+li {
   font-size: 20px;
   color: #0058A3;
   filter: blur(3px);
@@ -52,31 +69,51 @@ li{
   margin-right: 25%;
 }
 
-a{
+a {
   text-decoration: none;
   color: #0058A3;
 }
 
-p:hover{
+p:hover {
   filter: blur(0px);
 }
 
-li:hover{
+li:hover {
   filter: blur(0px);
 }
 
-a:hover{
+a:hover {
   filter: blur(0px);
 }
 
-h1:hover{
+h1:hover {
   filter: blur(0px);
 }
 
-h2:hover{
+h2:hover {
   filter: blur(2px);
 }
 
-h3:hover{
+h3:hover {
   filter: blur(1px);
+}
+
+.image-page {
+  animation: fadeinanimation ease 6s;
+}
+
+body {
+  animation: fadeinanimation ease 10s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeinanimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
