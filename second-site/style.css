@@ -91,11 +91,11 @@ h1:hover {
 }
 
 h2:hover {
-  filter: blur(2px);
+  filter: blur(0px);
 }
 
 h3:hover {
-  filter: blur(1px);
+  filter: blur(0px);
 }
 
 .image-page {
