@@ -1,0 +1,41 @@
+html {
+font-family: "made dillan";
+}
+
+img {
+  max-width: 400px;
+  opacity: 0%;
+}
+
+li, a, p {
+  text-decoration: none;
+  color: black;
+}
+
+li:hover {
+  background-color: red;
+}
+
+img:hover {
+  opacity: 100%;
+}
+
+p:hover {
+  background-color: green;
+  color: white;
+}
+
+h1:hover {
+  background-color: orange;
+  color: purple;
+}
+
+h2:hover {
+  background-color: orange;
+  color: purple;
+}
+
+h3:hover {
+  background-color: blue;
+  color: pink;
+}
