@@ -1,0 +1,11 @@
+html {
+  font-family: futura;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
