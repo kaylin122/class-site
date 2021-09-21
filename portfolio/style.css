@@ -1,7 +1,7 @@
 html {
-  background-color: #1a1a1a;
+  background-color: white;
   font-family: helvetica;
-  color: #cccccc;
+  color: #1a1a1a;
 }
 
 h1 {
@@ -27,7 +27,7 @@ li {
 
 a {
   text-decoration: none;
-  color: #cccccc;
+  color: #1a1a1a;
 }
 
 .kaylin {
@@ -76,5 +76,5 @@ a {
 }
 
 a:hover {
-  color: pink;
+  color: red;
 }
