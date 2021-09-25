@@ -1,11 +1,29 @@
-html {
-  font-family: futura;
+body  {
+  background: rgb(126, 210, 232);
+  animation-name: circle;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
 }
 
-*{
-  box-sizing: border-box;
+.circle {
+  height: 150px;
+  width: 150px;
+  background-color: rgb(249, 88, 88);
+  border-radius: 50%;
+  display: inline-block;
+  margin: 20px;
+  margin-top: 10%;
+  position: fixed;
 }
 
-img {
-  max-width: 100%;
+@keyframes circle {
+  0% {
+    background: rgb(187, 126, 137)
+  }
+
+  100% {
+    background: rgb(192, 197, 210);
+  }
 }

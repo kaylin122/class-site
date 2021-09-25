@@ -1,0 +1,44 @@
+body {
+  background: rgb(255, 216, 116);
+  animation-name: sunset;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  /*animation: sunset 8s infinite alternate linear; is the shorthand for all the above*/
+}
+
+.box {
+  width: 800px;
+  height: 20px;
+  background: rgb(156, 232, 144);
+  position: fixed;
+  top: 50%;
+  left: 26%;
+  animation: spin 2s infinite;
+}
+
+@keyframes sunset {
+  0% {
+    background: rgb(156, 166, 255);
+  }
+
+  100% {
+    background: rgb(137, 205, 223);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg) scale(1);
+    background: rgb(255, 158, 158);
+  }
+  50% {
+    transform: rotate(180deg) scale(2);
+    background: rgb(146, 187, 61);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+    background: rgb(242, 70, 236);
+  }
+}
