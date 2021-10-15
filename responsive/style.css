@@ -1,6 +1,7 @@
 html {
   background: rgb(145, 150, 87);
   font-family: "newyork";
+  font-size: 150%;
 }
 
 body {
@@ -8,13 +9,15 @@ body {
 }
 
 p {
-  width: 100%;
+  background: rgb(128, 102, 172);
+  max-width: 800px;
+  font-size: 1.5rem;
+  padding: 2rem;
 }
 
 .container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 20px;
 }
 
@@ -41,7 +44,7 @@ p {
 @media screen and (max-width: 800px) {
   html {
     background: rgb(210, 139, 141);
-    font-size: 48px;
+    font-size: 200%;
   }
   .container {
     flex-direction: column;
