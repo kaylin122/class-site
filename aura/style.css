@@ -1,0 +1,30 @@
+html {
+  background-color: rgb(38, 27, 21);
+}
+
+body {
+  font-family: "didot";
+}
+
+h1 {
+  color: rgb(177, 70, 18);
+  font-size: 70px;
+}
+
+p {
+  color: rgb(177, 70, 18);
+  font-size: 70px;
+}
+
+.title {
+  position: absolute;
+  top: 70px;
+  left: 300px;
+}
+
+.words {
+  position: absolute;
+  top: 200px;
+  left: 300px;
+  right: 300px;
+}
