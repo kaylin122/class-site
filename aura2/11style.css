@@ -1,0 +1,33 @@
+body {
+  background: black;
+  font-family: "caroni";
+}
+
+a {
+  font-family: "caroni";
+  text-decoration: none;
+  color: rgb(60, 35, 97);
+}
+
+.image-blurred-edge {
+    background-image: url('img/11.jpg');
+    background-size: 800px;
+    width: 800px;
+    height: 800px;
+    box-shadow: 0 0 20px 20px black inset;
+    position: absolute;
+    left: 430px;
+    top: 60px;
+}
+
+button {
+  position: absolute;
+  left: 800px;
+  top: 870px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 25px;
+  background-color: rgb(196, 195, 195);
+}
