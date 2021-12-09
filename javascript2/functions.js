@@ -1,3 +1,3 @@
 $( function() {
-    $( "img" ).draggable();
+    $( "p" ).draggable();
   } );
